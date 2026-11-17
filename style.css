@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222533;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+.input-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    color: #333;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46); 
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.boton-agregar:hover {
+    opacity: 0.9;
+}
+
+.container {
+    width: 500px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-input {
+    width: 350px;
+    height: 50px;
+    margin: 0px 5px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background: none;
+}
+
+.boton-editar {
+    background: none;
+    border: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.boton-remover {
+    background-color: rgb(255, 6, 46);
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
